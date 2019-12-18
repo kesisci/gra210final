@@ -1,0 +1,397 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background:rgb(0,0,0);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+
+
+#header-main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  
+    height: 7.5vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-left, #header-right {
+    display: flex;
+    width: 50%;
+    height: 7.5vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-left {
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+#header-right {
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+
+#hero {
+    background-size: 100% auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("img_square01.png") no-repeat center/contain;
+    background-color: black;
+    width: 100%;
+    height: 92.5vh;
+    margin: 0px;
+    padding: 3.75vh 0 3.75vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#speakers {
+    background-size: 100% auto;
+    background-color: rgb(6, 43, 51);
+    width: 100%;
+    height: 92.5vh;
+    margin: 0px;
+    padding: 3.75vh 0 3.75vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#hero-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7vh;
+    color:  rgba(251, 157, 17, 1.0);
+    margin: 0px;
+    padding: 0 0  20vh 0;
+    line-height: 10vh;
+}
+
+
+
+p {
+    margin: 0px;
+    padding: 0 0 10px 0;
+}
+
+.conversion {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(251, 157, 17, 1.0);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 12.5px 25px;
+    margin: 0;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+    font-weight: 400;
+}
+
+.conversion:hover {
+    background: rgba(251, 157, 17, 0.7);
+}
+
+#speakers-text {
+    color: white;
+    padding: 4vh 0 4vh 0;
+    font-weight: bolder;
+    font-size: 3.5vh;
+
+}
+
+#speakers-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6vh 0 0 0;
+    width: 80%;
+    height: 50%;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.card {
+    width: 25%;
+
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.60);
+}
+
+.contains {
+    padding: 2px 16px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.header-element {
+    padding: 0 10px;    
+    font-weight: 400;
+    color:#fff;
+    text-decoration: none;
+}
+.header-element:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+#logo{
+    width:6.5vh;
+    height:6.5vh;
+    filter:invert(100%)
+}
+#time{
+    background-size: 100% auto;
+    background-color: #1b1e1f;
+    width: 100%;
+    height: 92.5vh;
+    margin: 0px;
+    padding: 3.75vh 0 3.75vh 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+#time-text {
+    color: white;
+    padding: 4vh 0 4vh 0;
+    font-weight: bolder;
+    font-size: 3.5vh;
+}
+
+th,td{
+    text-align:left;
+    border-bottom:1px solid #1f1f1f;
+    padding:10px 10px;
+}
+
+
+
+table{
+    width:100%;
+    margin:0 0;
+
+    background-color:#2e3233;
+    color:#ddd;
+    border-radius: 5px;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.2);
+}
+table h4{
+    margin:0;
+}
+
+table:hover{
+    box-shadow: 0px 9px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.table-wrapper{
+    background: #fff;
+    width: 3%;
+    margin: 30px auto;
+    padding:30px;    
+}
+#schedule_div{
+    display: flex;
+    align-content: top;
+    align-items: top;
+    height:100%;
+
+}
+.last-row{
+    padding:0 0 15px 0 ;
+}
+/* Modal window begins here --------- */
+.modalDialog	{ /* this is the parent div */
+	position: fixed;
+    top: 0;
+    z-index: 2;
+	right: 0;
+	bottom: 0;
+    left: 0;
+	background-color: rgba(0,0,0,0.7);
+	overflow: auto; /* if we have excess content, this enables scrolling */
+	opacity: 0;
+	pointer-events: none; /* when the modal is invisible, mouse functionalities are disabled. */
+	transition: all 0.3s ease;
+}
+.modalDialog:target	{
+	opacity: 1; /* this makes the modal visible, on-click */
+	pointer-events: auto; /* gives back the mouse functionalities */
+}
+.modalDialog > div	{ /* this is a child selector, it only selects the direct child elements */
+	background-color: #fff;
+	width: 54%;
+	padding: 0;
+	margin: 10% auto;
+	border-radius: 0;
+	position: relative; /* the positioning of this div itself is NOT relative. But the positioning of its' contents ARE relative to THIS div */
+}
+
+.header-modal{
+    background: rgba(0, 0, 0, 0.9);
+    padding : 2% 4%;
+    color:rgba(122,131,153,1);
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.3);
+}
+.modal-body{
+    padding : 2% 4%;
+}
+textarea	{
+	display: block; /* by default they are inline */
+	width: 80%;
+	height: 24px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	background-color: rgba(0,0,0,0.05);
+	margin: 10px auto;
+	outline: none;
+	border: none;
+	resize: none;
+}
+.closebutton	{
+    background-color: rgb(6, 43, 51);
+    color:rgba(122,131,153,1);
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border-radius: 0;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+	transition: all 0.3s ease;
+}
+.closebutton:hover	{
+    background-color: rgba(255,255,255,0.90);
+    color:rgba(122,131,153,1);
+	box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+.modalDialog h1	{
+	text-align: left;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 300;
+	color:rgba(122,131,153,1);
+	padding: 16px 0;
+}
+.modalDialog .mybutton	{
+	background-color:  rgb(6, 43, 51);
+	color: #fff;
+	margin: 16px 0 0 9%;
+	font-size: 14px;
+}
+
+
+/*button style*/
+.mybutton	{
+	font-size: 1.25em;
+	font-weight: 300;
+	text-align: center;
+	display: block;
+	background-color: rgba(220,220,220,0.75);
+	width: 7em;
+	margin: 1.25em auto;
+	text-decoration: none;
+	color: rgba(65,65,65,0.75);
+	padding: 0.25em;
+	border-radius: 0;
+	transition: all 0.3s ease;
+}
+.mybutton:hover	{
+	background-color: rgba(122,131,153,1);
+	box-shadow:	8px 8px 16px rgba(0,0,0,0.2);
+}
+
+#place {
+    height: 92.5vh;
+    background : rgb(17, 35, 37);
+}
+#map{
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 45%;
+    height: 0;
+    margin:0% auto;
+    width: 75%;
+}
+iframe{
+
+    border-radius: 0% 20% / 24%;
+    transition: all 0.3s ease;
+    background-origin: content-box;
+    filter: grayscale(50%);
+}
+iframe:hover{
+    border-radius: 0;
+}
+.googlemap{
+    border: 0;
+    height:75%;
+    left : 12.5%;
+    top : 17.5%;
+   
+    position: absolute;
+    width : 75% ;
+}
+#place-text{
+    color: white;
+    padding: 4vh 0 4vh 0;
+    margin:0;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 3.5vh;
+    left : 47.5%;
+}
+
+

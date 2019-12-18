@@ -1,0 +1,1 @@
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12248.44874712982!2d32.7497419!3d39.8717249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5e457b20f48eef2!2sMithat%20%C3%87oruh%20Amfi!5e0!3m2!1sen!2str!4v1576062027261!5m2!1sen!2str" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>

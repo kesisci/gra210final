@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="header">
+    <div id="header-main">
+
+      <div id="header-left">
+        <image src="logo.png" id="logo"></image>
+      </div>
+      <div id="header-right">
+        <a href =#hero class="header-element">HOME</a>
+        <a href =#speakers class="header-element">SPEAKERS</a>
+        <a href =#time class="header-element">TIME</a>
+        <a href =#place class="header-element">PLACE</a>
+      </div>
+    </div>
+  </div>
+  <div id="hero">
+
+    <h1 id="hero-text">
+
+      <p>Artificial Intelligence </p>
+      <p>And Art</p>
+
+    </h1>
+    <a class="conversion" href="#openModal" >REGISTER</a>
+    <!-- Modal Box Begins Here -->
+    <div id="openModal" class="modalDialog">
+      <div>
+        <!-- Close function removes the focus from the element so the div is closed -->
+        <div class="header-modal">
+          <a href="#close" class="closebutton">X</a>
+          <h1>Artificial Intelligence And Art<br />
+            <span class="salmontext">ONLINE REGISTRATION</span></h1>
+        </div>
+        <div class="modal-body">
+          <textarea placeholder="Name / Last Name"></textarea>
+          <textarea placeholder="School / Institution"></textarea>
+          <textarea placeholder="Email"></textarea>
+          <a href="index.html" class="mybutton">SEND!</a>
+          <p>A registration link will be sent to the provided email address.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="speakers">
+    <h1 id="speakers-text">SPEAKERS</h1>
+    <div id="speakers-card">
+      <div class="card">
+        <img src="hinton.jpg">
+        <div class="contains">
+          <h4><b>Geoffrey Hinton</b></h4>
+          <p>is an English Canadian cognitive psychologist and computer scientist,
+            most noted for his work on artificial neural networks.
+            Since 2013 he divides his time working for Google and the University of Toronto.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="ian.jpg">
+        <div class="contains">
+          <h4><b>Ian Goodfellow</b></h4>
+          <p>is an English Canadian cognitive psychologist and computer scientist,
+            most noted for his work on artificial neural networks.
+            Since 2013 he divides his time working for Google and the University of Toronto.</p>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="lecun.jpg">
+        <div class="contains">
+          <h4><b>Yann LeCunn</b></h4>
+          <p>is an English Canadian cognitive psychologist and computer scientist,
+            most noted for his work on artificial neural networks.
+            Since 2013 he divides his time working for Google and the University of Toronto.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <div id="time">
+    <h1 id="time-text">TIME</h1>
+    <div id="schedule_div">
+      <table cellpadding="0" cellspacing="0">
+
+        <tr>
+          <th>Time</th>
+          <th>1 January</th>
+          <th>2 January</th>
+          <th>3 January</th>
+        </tr>
+        <tr>
+          <td>11:00-12:00</td>
+          <td>
+            <h4>Geoffrey Hinton</h4>Image Style Transfer
+          </td>
+          <td>
+            <h4>Ian Goodfellow</h4>Generative Adverserial Networks
+          </td>
+          <td>
+            <h4>Yann LeCunn</h4>Inceptionism: Going Deeper into Neural Networks
+          </td>
+        </tr>
+        <tr>
+          <td>12:00-13:00</td>
+          <td>Break</td>
+          <td>Break</td>
+          <td>Break</td>
+        </tr>
+        <tr class="last-row">
+          <td>13:00-14:00</td>
+          <td>
+            <h4>Geoffrey Hinton</h4>Dynamic Routing Between Capsules
+          </td>
+          <td>
+            <h4>Ian Goodfellow</h4>Voice Cloning using Spectograms: A Generative Adverserial Approach
+          </td>
+          <td>
+            <h4>Yann LeCunn</h4>Creativity of Artificial Intelligence: Latent Space
+          </td>
+        </tr>
+      </table>
+    </div>
+  
+  </div>
+  <div id ="place">
+    <h1 id = "place-text">PLACE</h1>
+    <div id = "map">
+    <iframe 
+     class =googlemap frameborder="0" scrolling="no" 
+     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12248.44874712982!2d32.7497419!3d39.8717249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5e457b20f48eef2!2sMithat%20%C3%87oruh%20Amfi!5e0!3m2!1sen!2str!4v1576062027261!5m2!1sen!2str">
+    </iframe>
+    </div>
+  </div>
+</body>
+
+
+</html>
