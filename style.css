@@ -74,13 +74,14 @@ html {
     background-size: 100% auto;
     background-color: rgb(6, 43, 51);
     width: 100%;
-    height: 92.5vh;
+  
     margin: 0px;
     padding: 3.75vh 0 3.75vh 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    padding-block-end: 10%;
 }
 
 #hero-text{
@@ -128,11 +129,11 @@ p {
 
 #speakers-card {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: stretch;
+    justify-content: space-around;
     padding: 6vh 0 0 0;
     width: 80%;
-    height: 50%;
+
 }
 
 img {
@@ -150,6 +151,9 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     transition: 0.3s;
     border-radius: 5px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 h4 {
@@ -191,7 +195,7 @@ p {
     background-size: 100% auto;
     background-color: #1b1e1f;
     width: 100%;
-    height: 92.5vh;
+  
     margin: 0px;
     padding: 3.75vh 0 3.75vh 0;
     
@@ -199,6 +203,7 @@ p {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    padding-block-end: 30%;
 }
 #time-text {
     color: white;
@@ -363,7 +368,7 @@ textarea	{
     padding-bottom: 45%;
     height: 0;
     margin:0% auto;
-    width: 75%;
+    width: 90%;
 }
 iframe{
 
@@ -384,14 +389,140 @@ iframe:hover{
     position: absolute;
     width : 75% ;
 }
-#place-text{
-    color: white;
+#place-text-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: absolute;
     padding: 4vh 0 4vh 0;
     margin:0;
-    position: absolute;
+    justify-content: center;
+}
+#place-text{
+    color: white;
     font-weight: bolder;
     font-size: 3.5vh;
-    left : 47.5%;
+
 }
 
+
+@media (max-width : 1024px){
+    body{
+        font-size:24px;
+    }
+   
+    
+     #map{
+        
+        padding-block-start: 45%;
+    }
+
+    #logo{
+        width: 6vh;
+        height: 6vh;
+    }
+    .header-element{
+        font-size: x-large;
+    }
+    .conversion{
+        padding : 2% 4%;
+        font-size: x-large;
+    }
+
+}
+
+@media (max-width : 840px){
+    body{
+        font-size:24px;
+    }
+    #speakers-card {
+        flex-direction: column;
+        align-items: center;
+     }
+     .card {
+        width: 80%;
+        margin-block-end: 10%;
+     }
+     #map{
+        
+        padding-block-start: 45%;
+    }
+
+    #logo{
+        width: 5vh;
+        height: 5vh;
+    }
+    .header-element{
+        font-size: x-large;
+    }
+    .conversion{
+        padding : 2% 4%;
+        font-size: x-large;
+    }
+
+}
+@media (max-width : 630px){
+    body{
+        font-size:20px;
+    }
+    #speakers-card {
+        flex-direction: column;
+        align-items: center;
+     }
+     .card {
+        width: 80%;
+        margin-block-end: 10%;
+     }
+     #map{
+        
+        padding-block-start: 45%;
+    }
+
+    #logo{
+        width: 4vh;
+        height: 4vh;
+    }
+    .header-element{
+        font-size: xx-large;
+    }
+    .conversion{
+        padding : 2.5% 5%;
+        font-size: xx-large;
+    }
+  
+
+}
+@media (max-width: 420px ) {
+    body{
+        font-size:14px;
+    }
+    #speakers-card {
+       flex-direction: column;
+       align-items: center;
+    
+    }
+    .card {
+        width: 80%;
+        margin-block-end: 10%;
+    }
+
+    #map{
+        
+        padding-block-start: 80%;
+    }
+
+    #logo{
+        width: 4.5vh;
+        height: 4.5vh;
+    }
+    .header-element{
+        font-size: medium;
+    }
+    .conversion{
+        padding : 3% 6%;
+        font-size: small;
+    }
+  
+
+}
 
